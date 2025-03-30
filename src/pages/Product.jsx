@@ -78,10 +78,14 @@ const Product = () => {
       <div className = 'mt-20'>
         <div className='flex'>
           <b className ='onest-thick border px-5 py-3 text-sm'>Description</b>
+          <b className ='onest-norm border px-5 py-3 text-sm'>Reviews (122)</b>
         </div>
-
+        <div className ='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
+          <p className = 'onest-norm text-gray-500'>Filler words are going here that need to be replaced later</p>
+          <p className = 'onest-norm text-gray-500'>another set of filler words are going here that again need to be replaced later</p>
+        </div>
       </div>
-
+      {/*Display related prodcuts */}
     </div>
   ) :<div className ='opacity-0'></div>
 }
