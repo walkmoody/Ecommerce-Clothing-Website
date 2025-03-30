@@ -13,6 +13,8 @@ import hoodie2 from './hoodie2.png'
 import hoodie3 from './hoodie3.png'
 import hoodie4 from './hoodie4.png'
 import hoodie5 from './hoodie5.jpg'
+import hoodie6 from './hoodie6.png'
+import hoodie6_1 from './hoodie6.1.png'
 import femHoodie1 from './femHoodie1.jpg'
 import kidHoodie1 from './kidHoodie1.jpg'
 
@@ -32,6 +34,8 @@ export const assets = {
     hoodie3,
     hoodie4,
     hoodie5,
+    hoodie6,
+    hoodie6_1,
     femHoodie1,
     kidHoodie1,
 }
@@ -47,7 +51,7 @@ export const products = [
     subCategory: "Outerwear",
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345448, //change
-    bestseller: false,
+    bestseller: true,
 },
 {
     _id : "aaaab",
@@ -119,6 +123,18 @@ export const products = [
     subCategory: "Outerwear",
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345449, //change
-    bestseller: false,
+    bestseller: true,
+},
+{
+    _id : "aaaah",
+    name: "Male Thick Black Hoodie",
+    description: "A thick black hoodie, for men",
+    price: 90,
+    image: [hoodie6,hoodie6_1],
+    category: "Men",
+    subCategory: "Outerwear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716634345449, //change
+    bestseller: true,
 },
 ]
