@@ -4,7 +4,7 @@ import {assets} from '../assets/assets'
 const Hero = () => {
   return (
     <div style ={{paddingLeft : '30px', paddingRight: '30px'}}>
-    <div className ='flex flex-col sm:flex-row border border-gray-400'>
+    <div className ='flex flex-col sm:flex-row border border-none'>{/*Change border-none to border-gray-500 */}
         {/*Hero left side */}
         <div className='w-full sm:w-1/2 flex items-center justify-center py-10 sm:py-0'>
             <div className='text-[#414141]'>

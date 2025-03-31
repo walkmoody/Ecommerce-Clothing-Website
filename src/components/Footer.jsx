@@ -27,8 +27,8 @@ const Footer = () => {
             <div>
                 <p className ='onest-norm text-xl font-medium mb-5'>GET IN TOUCH</p>
                 <ul className ='flex flex-col gap-1 text-gray-600'>
-                    <li className='onest-norm'>PHONE NUMBER</li>
-                    <li className='onest-norm'>EMAILL</li>
+                    <li className='onest-norm'>REPLACE WITH PHONE NUMBER</li>
+                    <li className='onest-norm'>REPLACE WITH EMAIL</li>
                 </ul>
             </div>
 
@@ -36,7 +36,7 @@ const Footer = () => {
 
         <div>
             <hr />
-            <p className = 'onest-norm py-5 text-sm text-center'>Copyright 2025 @ (CHANGE THIS) - All Right Reserved.</p>
+            <p className = 'onest-norm py-5 text-sm text-center text-gray-700'>Copyright 2025 @ (CHANGE THIS) - All Right Reserved.</p>
         </div>
 
     </div>
