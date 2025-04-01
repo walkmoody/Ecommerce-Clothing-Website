@@ -10,6 +10,11 @@ import supportIcon from './supportIcon.png'
 import crossIcon from './crossIcon.png'
 import starIcon from './starIcon.png'
 import starDullIcon from './starDullIcon.png'
+import binIcon from './binIcon.png'
+import stripeLogo from './stripeLogo.png'
+import razorpayLogo from './razorpayLogo.png'
+import applepayLogo from './applepayLogo.png'
+import aboutIcon from './aboutIcon.png'
 
 import hoodie1 from './hoodie1.png'
 import hoodie2 from './hoodie2.png'
@@ -35,6 +40,12 @@ export const assets = {
     crossIcon,
     starIcon,
     starDullIcon,
+    binIcon,
+    stripeLogo,
+    razorpayLogo,
+    applepayLogo,
+    aboutIcon,
+
     hoodie1,
     hoodie2,
     hoodie3,
