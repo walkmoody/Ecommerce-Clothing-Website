@@ -73,7 +73,7 @@ const Navbar = () => {
         </div>
     </div>
     </div>
-    <p className ='md:w-11 h-[2px] bg-[gray]'></p>
+    <p className ='h-[2px] bg-[gray]'></p>
     </div>
   )
 }
