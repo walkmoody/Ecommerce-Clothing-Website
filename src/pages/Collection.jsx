@@ -85,8 +85,8 @@ const Collection = () => {
           <img className = {`h-3 sm:hidden ${showFilter ? 'rotate-90':''}`} src={assets.dropdownIcon} alt=""/>
         </p>
         {/* Category Filter */}
-        <div className ={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? '': 'hidden'} sm:block`}>
-          <p className= 'onest-norm mb-3 text-sm font-medium'>CATEGORIES</p>
+        <div className ={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? '': 'hidden'} sm:block rounded`}>
+          <p className= 'onest-thick mb-3 text-sm font-medium'>CATEGORIES</p>
           <div className ='flex flex-col gap-2 text-sm font-light text-gray-700'>
             <p className='onest-norm flex gap-2'>
               <input className ='w-3' type="checkbox" value ={'Men'} onChange={toggleCategory}/>Men
@@ -100,8 +100,8 @@ const Collection = () => {
           </div>
         </div>
         {/*SubCategory Filter */}
-        <div className ={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? '': 'hidden'} sm:block`}>
-          <p className= 'onest-norm mb-3 text-sm font-medium'>TYPE</p>
+        <div className ={`border border-gray-300 pl-5 py-3 mt-6 ${showFilter ? '': 'hidden'} sm:block rounded`}>
+          <p className= 'onest-thick mb-3 text-sm font-medium'>TYPE</p>
           <div className ='flex flex-col gap-2 text-sm font-light text-gray-700'>
             <p className='onest-norm flex gap-2'>
               <input className ='w-3' type="checkbox" value ={'Topwear'} onChange={toggleSubCategory}/>Topwear

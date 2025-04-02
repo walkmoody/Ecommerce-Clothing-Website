@@ -41,6 +41,17 @@ a.active hr{
     display: none;
   }
 
+  .gradient-custom {
+    /* fallback for old browsers */
+    background: #c471f5;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1))
+  }
+
 @media (max-width:640px){
     a.active{
         background-color: black;
