@@ -18,7 +18,7 @@ const LatestCollection = () => {
         <div className ='text-center py-8 text-3xl'>
             <Title text1={'LATEST'} text2={'COLLECTIONS'}/>
             <p className ='onest-norm w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-            Test text test Text place holder text change this later
+            This is the latest collection 
             </p>
         </div>
         {/*Rendering products */}

@@ -4,8 +4,11 @@ import {assets} from '../assets/assets'
 const Hero = () => {
   return (
     <div style ={{paddingLeft : '30px', paddingRight: '30px'}}>
+    <br></br>
     <div className ='flex flex-col sm:flex-row border border-none'>{/*Change border-none to border-gray-500 */}
+        
         {/*Hero left side */}
+        
         <div className='w-full sm:w-1/2 flex items-center justify-center py-10 sm:py-0'>
             <div className='text-[#414141]'>
                 <div className = 'flex items-center gap-2'>
@@ -22,9 +25,11 @@ const Hero = () => {
             </div>
         </div>
         {/*Hero right side */}
-        <img className ='w-full sm:w-1/2' src={assets.hoodie2} alt="" />
+        <img className ='w-full sm:w-1/2' src={assets.clothesFrontIcon} alt="" />
 
     </div>
+    <br></br>
+    <p className ='h-[2px] bg-[gray]'></p>
     </div>
   )
 }
