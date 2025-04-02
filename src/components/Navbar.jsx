@@ -40,13 +40,13 @@ const Navbar = () => {
             </NavLink>
         </ul>
         <div className ='flex items-center gap-6'>
-            <img onClick={()=>setShowSearch(true)} src = {assets.search} className = 'w-5 cursor-pointer' alt = ""/>
+            <Link to='/collection'><img onClick={()=>setShowSearch(true)} src = {assets.search} className = 'w-5 cursor-pointer' alt = ""/></Link>
             <div className = "group relative">
                 <Link to='/login'><img className ='w-5 cursor-pointer' src={assets.profileIcon} alt=""/></Link>
                 <div className="group-hover:block hidden absolute dropdown-menu right 0 pt-4">
                     <div className = 'flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-500 rounded'>
-                        <p className = 'onest-norm cursor-pointer hover:text-black'>My Profile</p>
-                        <p className = 'onest-norm cursor-pointer hover:text-black'>Orders</p>
+                        <Link><p className = 'onest-norm cursor-pointer hover:text-black'>My Profile</p></Link>
+                        <Link to ='/orders'><p className = 'onest-norm cursor-pointer hover:text-black'>Orders</p></Link>
                         <p className = 'onest-norm cursor-pointer hover:text-black'>Logout</p>
                     </div>
                 </div>

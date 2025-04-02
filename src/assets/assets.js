@@ -15,6 +15,7 @@ import stripeLogo from './stripeLogo.png'
 import razorpayLogo from './razorpayLogo.png'
 import applepayLogo from './applepayLogo.png'
 import aboutIcon from './aboutIcon.png'
+import contactImg from './contactImg.jpg'
 
 import hoodie1 from './hoodie1.png'
 import hoodie2 from './hoodie2.png'
@@ -45,6 +46,7 @@ export const assets = {
     razorpayLogo,
     applepayLogo,
     aboutIcon,
+    contactImg,
 
     hoodie1,
     hoodie2,
