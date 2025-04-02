@@ -27,6 +27,7 @@ import hoodie6 from './hoodie6.png'
 import hoodie6_1 from './hoodie6.1.png'
 import femHoodie1 from './femHoodie1.jpg'
 import kidHoodie1 from './kidHoodie1.jpg'
+import blackShirtIcon from './blackShirtIcon.png'
 
 
 export const assets = {
@@ -155,6 +156,18 @@ export const products = [
     image: [hoodie6,hoodie6_1],
     category: "Men",
     subCategory: "Outerwear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716634345449, //change
+    bestseller: true,
+},
+{
+    _id : "aaaai",
+    name: "Male black shirt",
+    description: "A black shirt for men",
+    price: 1000,
+    image: [blackShirtIcon],
+    category: "Men",
+    subCategory: "Topwear",
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345449, //change
     bestseller: true,
