@@ -44,11 +44,11 @@ const Navbar = () => {
             <Link to='/collection'><img onClick={()=>setShowSearch(true)} src = {assets.search} className = 'w-5 cursor-pointer' alt = ""/></Link>
             <div className = "group relative">
                 <Link to='/login'><img className ='w-5 cursor-pointer' src={assets.profileIcon} alt=""/></Link>
-                <div className="group-hover:block hidden absolute dropdown-menu right 0 pt-4">
-                    <div className = 'flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-500 rounded'>
-                        <Link><p className = 'onest-norm cursor-pointer hover:text-black'>My Profile</p></Link>
-                        <Link to ='/orders'><p className = 'onest-norm cursor-pointer hover:text-black'>Orders</p></Link>
-                        <p className = 'onest-norm cursor-pointer hover:text-black'>Logout</p>
+                <div className="group-hover:block dropdown-menu hidden absolute left-1/2 transform -translate-x-1/2 pt-4 z-50">
+                    <div className = 'flex flex-col gap-2 w-36 py-3 px-5 bg-black text-gray-400 border border-gray-100 rounded shadow-lg'>
+                        <Link><p className = 'onest-norm cursor-pointer hover:text-white'>My Profile</p></Link>
+                        <Link to ='/orders'><p className = 'onest-norm cursor-pointer hover:text-white'>Orders</p></Link>
+                        <p className = 'onest-norm cursor-pointer hover:text-white'>Logout</p>
                     </div>
                 </div>
             </div>
