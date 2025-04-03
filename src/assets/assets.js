@@ -17,6 +17,7 @@ import applepayLogo from './applepayLogo.png'
 import aboutIcon from './aboutIcon.png'
 import contactImg from './contactImg.jpg'
 import clothesFrontIcon from './clothesFrontIcon.jpg'
+import landingPageIcon from './landingPageIcon.png'
 
 import hoodie1 from './hoodie1.png'
 import hoodie2 from './hoodie2.png'
@@ -50,7 +51,7 @@ export const assets = {
     aboutIcon,
     contactImg,
     clothesFrontIcon,
-
+    landingPageIcon,
 
     hoodie1,
     hoodie2,
