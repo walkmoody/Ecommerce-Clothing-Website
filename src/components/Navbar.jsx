@@ -13,11 +13,11 @@ const Navbar = () => {
     <div className='.w-full flex items-center justify-between py-5 font-medium '>
         <Link to='/'><img src={assets.logo} className='w-36' alt="" /></Link>
 
-        <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
+        <ul className='hidden sm:flex gap-5 text-sm text-gray-100'>
         <NavLink to="/" className="flex flex-col items-center gap-1">
         {({ isActive }) => (<>
                 <p className={isActive ? "rock-salt-regular" : "onest-norm"}>HOME</p>
-                <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" /></>
+                <hr className="w-2/4 border-none h-[1.5px] bg-gray-100 hidden" /></>
             )}
             </NavLink>
             <NavLink to='/collection'className ='flex flex-col items-center gap-1'>
