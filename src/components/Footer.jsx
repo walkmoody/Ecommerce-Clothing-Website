@@ -1,5 +1,6 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -10,23 +11,23 @@ const Footer = () => {
             <div>
                 <img src={assets.logo} className='mb-5 w-32' alt =""/>
                 <p className ='onest-norm w-full md:w-2/3 text-gray-100'>
-                Super awesome website 
+                Work in progress
                 </p>
             </div>
 
             <div>
-                <p className ='onest-norm text-xl font-medium mb-5'>COMPANY</p>
-                <ul className ='flex flex-col gap-1 text-gray-600'>
-                    <li className='onest-norm'>Home</li>
-                    <li className='onest-norm'>About Us</li>
+                <p className ='onest-norm text-xl font-medium mb-5 text-white'>COMPANY</p>
+                <ul className ='flex flex-col gap-1 text-white'>
+                    <Link to='/'><li className='onest-norm'>Home</li></Link>
+                    <Link to='/about'><li className='onest-norm'>About Us</li></Link>
                     <li className='onest-norm'>Delivery</li>
                     <li className='onest-norm'>Privacy Policy</li>
                 </ul>
             </div>
 
             <div>
-                <p className ='onest-norm text-xl font-medium mb-5'>GET IN TOUCH</p>
-                <ul className ='flex flex-col gap-1 text-gray-600'>
+                <p className ='onest-norm text-xl font-medium mb-5 text-white'>GET IN TOUCH</p>
+                <ul className ='flex flex-col gap-1 text-white'>
                     <li className='onest-norm'>REPLACE WITH PHONE NUMBER</li>
                     <li className='onest-norm'>REPLACE WITH EMAIL</li>
                 </ul>
@@ -36,7 +37,7 @@ const Footer = () => {
 
         <div>
             <hr />
-            <p className = 'onest-norm py-5 text-sm text-center text-gray-700'>Copyright 2025 @ (CHANGE THIS) - All Right Reserved.</p>
+            <p className = 'onest-thin py-5 text-sm text-center text-gray-300'>Copyright 2025 @ (CHANGE THIS) - All Right Reserved.</p>
         </div>
 
     </div>
