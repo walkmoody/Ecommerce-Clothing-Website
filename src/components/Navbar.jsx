@@ -8,9 +8,9 @@ const Navbar = () => {
     const {setShowSearch, getCartCount} = useContext(ShopContext);
 
   return (
-    <div className='background-white'>{/*gradient-custom */}
-    <div style ={{paddingLeft : '20px', paddingRight: '20px', backgroundColor: 'white'}}>
-    <div className='flex items-center justify-between py-5 font-medium '>
+    <div className='sticky top-0 z-50'>
+    <div style ={{paddingLeft : '20px', paddingRight: '20px'}}>
+    <div className='.w-full flex items-center justify-between py-5 font-medium '>
         <Link to='/'><img src={assets.logo} className='w-36' alt="" /></Link>
 
         <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
@@ -72,8 +72,8 @@ const Navbar = () => {
             </div>
         </div>
     </div>
+    
     </div>
-    <p className ='h-[2px] bg-[gray]'></p>
     </div>
   )
 }

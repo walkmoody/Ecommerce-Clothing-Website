@@ -17,11 +17,10 @@ import 'react-toastify/dist/ReactToastify.css'
 
 const App = () => {
   return (
-    <div style = {{backgroundColor: 'white'}}>
+    <div style = {{backgroundColor: 'black'}}>
     <Navbar/>
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
         <ToastContainer />
-        
         <SearchBar/>
         <Routes>
             <Route path='/' element ={<Home/>} />

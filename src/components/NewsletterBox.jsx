@@ -12,9 +12,9 @@ const NewsletterBox = () => {
       <p className ='onest-norm text-gray-400 mt-3'>
         test text test text test wafwf31rr12r21r21r21r
       </p>
-      <form onSubmit ={onSubmitHandler} className ='w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3'>
-        <input className ='onest-thin w-full sm:flex-1 outline-none' type="email" placeholder ='Enter your email'/>
-        <button type='submit' className ='onest-thick bg-black text-white text-sx px-10 py-4'>SUBSCRIBE</button>
+      <form onSubmit ={onSubmitHandler} className ='w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3 rounded'>
+        <input className ='onest-thin w-full sm:flex-1 outline-black text-white bg-black' type="email" placeholder ='Enter your email'/>
+        <button type='submit' className ='onest-thick bg-white text-black text-sx px-10 py-4'>SUBSCRIBE</button>
       </form>
     </div>
   )

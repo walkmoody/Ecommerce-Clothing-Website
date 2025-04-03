@@ -17,7 +17,7 @@ const BestSeller = () => {
     <div className ='my-10'>
       <div className = 'text-center py-8 text-3xl'>
         <Title text1 = {'BEST'} text2={'SELLERS'} />
-        <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
+        <p className='onest-norm w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-100'>
         test words for best seller insert paragraph here product is so great
         </p>
       </div>
