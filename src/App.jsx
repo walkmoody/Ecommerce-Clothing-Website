@@ -21,7 +21,6 @@ import ScrollTop from './components/ScrollTop'
 const App = () => {
   return (
     <div style = {{backgroundColor: 'black'}}>
-    
     <Navbar/>
     <ScrollTop/>
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
