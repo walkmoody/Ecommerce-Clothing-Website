@@ -22,13 +22,16 @@ import landingPageIcon from './landingPageIcon.png'
 import creamTee from './creamTeeShirt.png'
 import blackTee from './blackTee.png'
 import blackTeeDesign1 from './blackTeeDesign1.png'
+import blackHoodieDesign1 from './blackHoodieDesign1.png'
 import teeDesign1 from './teeDesign1.png'
 import blackTeeDesign2 from './blackTeeDesign2.png'
 import teeDesign2 from './teeDesign2.png'
 import blackTeeDesign3 from './blackTeeDesign3.png'
 import teeDesign3 from './TeeDesign3.png'
 import blackTeeDesign4 from './blackTeeDesign4.png'
+import blackHoodieDesign4 from './blackHoodieDesign4.png'
 import teeDesign4 from './TeeDesign4.png'
+import blackHoodie from './blackHoodie.png'
 
 import hoodie1 from './hoodie1.png'
 import hoodie2 from './hoodie2.png'
@@ -39,7 +42,6 @@ import hoodie6 from './hoodie6.png'
 import hoodie6_1 from './hoodie6.1.png'
 import femHoodie1 from './femHoodie1.jpg'
 import kidHoodie1 from './kidHoodie1.jpg'
-import blackShirtIcon from './blackShirtIcon.png'
 
 
 export const assets = {
@@ -68,6 +70,7 @@ export const assets = {
     blackTee,
 
     blackTeeDesign1,
+    blackHoodieDesign1,
     teeDesign1,
 
     blackTeeDesign2,
@@ -77,7 +80,10 @@ export const assets = {
     teeDesign3,
 
     blackTeeDesign4,
+    blackHoodieDesign4,
     teeDesign4,
+
+    blackHoodie,
 
     hoodie1,
     hoodie2,
@@ -92,18 +98,6 @@ export const assets = {
 
 export const products = [
 {
-    _id : "aaaaa",
-    name: "Male black tee-shirt",
-    description: "A lightweight black tee shirt for men",
-    price: 25,
-    image: [blackTee, blackTee],
-    category: "Men",
-    subCategory: "Shirts",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716634345448, //change
-    bestseller: false,
-},
-{
     _id : "aaaab",
     name: "Male Black tee-shirt Planet design",
     description: "A lightweight black tee shirt for men with a design",
@@ -114,6 +108,18 @@ export const products = [
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345449, //change
     bestseller: true,
+},
+{
+    _id : "aaaak",
+    name: "Male black Hoodie Planet design",
+    description: "A lightweight black hoodie for men with planet design",
+    price: 75,
+    image: [blackHoodieDesign1, teeDesign1],
+    category: "Men",
+    subCategory: "Outerwear",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716634345449, //change
+    bestseller: false,
 },
 {
     _id : "aaaab",
@@ -131,10 +137,22 @@ export const products = [
     _id : "aaaac",
     name: "Male black tee-shirt Smiley design",
     description: "A lightweight black tee shirt for men with a smiley design",
-    price: 90,
+    price: 35,
     image: [blackTeeDesign4, teeDesign4],
     category: "Men",
     subCategory: "Shirts",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716634345449, //change
+    bestseller: true,
+},
+{
+    _id : "aaaal",
+    name: "Male Black Hoodie Smiley design",
+    description: "A lightweight brown hoodie for men",
+    price: 75,
+    image: [blackHoodieDesign4, teeDesign4],
+    category: "Men",
+    subCategory: "Outerwear",
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345449, //change
     bestseller: true,
@@ -150,6 +168,18 @@ export const products = [
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345449, //change
     bestseller: true,
+},
+{
+    _id : "aaaaa",
+    name: "Male black tee-shirt",
+    description: "A lightweight black tee shirt for men",
+    price: 25,
+    image: [blackTee, blackTee],
+    category: "Men",
+    subCategory: "Shirts",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716634345448, //change
+    bestseller: false,
 },
 {
     _id : "aaaae",
@@ -216,23 +246,12 @@ export const products = [
     name: "Male Black Hoodie",
     description: "A lightweight black hoodie for men",
     price: 100,
-    image: [hoodie1, hoodie1],
+    image: [blackHoodie, blackHoodie],
     category: "Men",
     subCategory: "Outerwear",
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345448, //change
     bestseller: true,
 },
-{
-    _id : "aaaak",
-    name: "Male Brown Hoodie",
-    description: "A lightweight brown hoodie for men",
-    price: 75,
-    image: [hoodie2, hoodie2],
-    category: "Men",
-    subCategory: "Outerwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716634345449, //change
-    bestseller: true,
-},
+
 ]
