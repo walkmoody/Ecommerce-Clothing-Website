@@ -8,8 +8,8 @@ const Navbar = () => {
     const {setShowSearch, getCartCount} = useContext(ShopContext);
 
   return (
-    <div className='white'>{/*gradient-custom */}
-    <div style ={{paddingLeft : '20px', paddingRight: '20px'}}>
+    <div className='background-white'>{/*gradient-custom */}
+    <div style ={{paddingLeft : '20px', paddingRight: '20px', backgroundColor: 'white'}}>
     <div className='flex items-center justify-between py-5 font-medium '>
         <Link to='/'><img src={assets.logo} className='w-36' alt="" /></Link>
 
