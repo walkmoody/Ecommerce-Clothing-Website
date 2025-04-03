@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='sticky top-0 z-50'>
     <div style ={{paddingLeft : '20px', paddingRight: '20px'}}>
-    <div className='.w-full flex items-center justify-between py-5 font-medium '>
+    <div className='.w-full flex items-center justify-between py-5 font-medium'>
         <Link to='/'><img src={assets.logo} className='w-36' alt="" /></Link>
 
         <ul className='hidden sm:flex gap-5 text-sm text-gray-100'>

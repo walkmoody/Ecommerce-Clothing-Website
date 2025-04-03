@@ -9,8 +9,8 @@ const ProductsItem = ({id,image,name,price}) => {
         <div className ='overflow-hidden'>
             <img className = 'object-cover shadow-md hover:scale-110 transition ease-in-out rounded-lg' src={image[0]} alt = ""/>
         </div>
-        <p className ='onest-norm pt-3 pb-1 text-sm'>{name} </p>
-        <p className ='onest-norm text-sm font-medium'>{currency}{price}</p>
+        <p className ='onest-thick text-center pt-3 pb-1 text-sm text-gray-100'>{name}</p>
+        <p className ='onest-thin text-center text-sm font-medium text-gray-200'>{currency}{price}</p>
     </Link>
   )
 }
