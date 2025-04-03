@@ -23,19 +23,19 @@ const Navbar = () => {
             <NavLink to='/collection'className ='flex flex-col items-center gap-1'>
             {({ isActive }) => (<>
                 <p className={isActive ? "rock-salt-regular" : "onest-norm"}>COLLECTION</p>
-                <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" /></>
+                <hr className="w-2/4 border-none h-[1.5px] bg-gray-100 hidden" /></>
             )}
             </NavLink>
-            <NavLink to='/about'className ='flex flex-col items-center gap-1'>
+            <NavLink to='/about' className ='flex flex-col items-center gap-1'>
             {({ isActive }) => (<>
                 <p className={isActive ? "rock-salt-regular" : "onest-norm"}>ABOUT</p>
-                <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" /></>
+                <hr className="w-2/4 border-none h-[1.5px] bg-gray-100 hidden" /></>
             )}
             </NavLink>
             <NavLink to='/contact'className ='flex flex-col items-center gap-1'>
             {({ isActive }) => (<>
                 <p className={isActive ? "rock-salt-regular" : "onest-norm"}>CONTACT</p>
-                <hr className="w-2/4 border-none h-[1.5px] bg-gray-700 hidden" /></>
+                <hr className="w-2/4 border-none h-[1.5px] bg-gray-100 hidden" /></>
             )}
             </NavLink>
         </ul>
