@@ -9,7 +9,7 @@ const Footer = () => {
             
             <div>
                 <img src={assets.logo} className='mb-5 w-32' alt =""/>
-                <p className ='onest-norm w-full md:w-2/3 text-gray-600'>
+                <p className ='onest-norm w-full md:w-2/3 text-gray-100'>
                 Super awesome website 
                 </p>
             </div>
