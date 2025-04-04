@@ -119,7 +119,7 @@ export const assets = {
 
 export const products = [
 {
-    _id : "aaaab",
+    _id : "aaaap",
     name: "Male Black tee-shirt Planet design",
     description: "A lightweight black tee shirt for men with a design",
     price: 35,
