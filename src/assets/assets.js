@@ -33,6 +33,15 @@ import blackHoodieDesign4 from './blackHoodieDesign4.png'
 import teeDesign4 from './TeeDesign4.png'
 import blackHoodie from './blackHoodie.png'
 
+import creamTeeDesign5 from './creamTeeDesign5.png'
+import TeeDesign5 from './TeeDesign5.png'
+import creamTeeDesign6 from './creamTeeDesign6.png'
+import TeeDesign6 from './TeeDesign6.png'
+import creamTeeDesign7 from './creamTeeDesign7.png'
+import TeeDesign7 from './TeeDesign7.png'
+import creamTeeDesign8 from './creamTeeDesign8.png'
+import TeeDesign8 from './TeeDesign8.png'
+
 import hoodie1 from './hoodie1.png'
 import hoodie2 from './hoodie2.png'
 import hoodie3 from './hoodie3.png'
@@ -82,6 +91,18 @@ export const assets = {
     blackTeeDesign4,
     blackHoodieDesign4,
     teeDesign4,
+
+    creamTeeDesign5,
+    TeeDesign5,
+
+    creamTeeDesign6,
+    TeeDesign6,
+
+    creamTeeDesign7,
+    TeeDesign7,
+
+    creamTeeDesign8,
+    TeeDesign8,
 
     blackHoodie,
 
@@ -143,7 +164,7 @@ export const products = [
     subCategory: "Shirts",
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345449, //change
-    bestseller: true,
+    bestseller: false,
 },
 {
     _id : "aaaal",
@@ -182,6 +203,54 @@ export const products = [
     bestseller: false,
 },
 {
+    _id : "aaaaf",
+    name: "Male Cream tee-shirt with Shocked face",
+    description: "A lightweight cream tee shirt for men with a shocked face design",
+    price: 35,
+    image: [creamTeeDesign5, TeeDesign5],
+    category: "Men",
+    subCategory: "Shirts",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716634345449, //change
+    bestseller: true,
+},
+{
+    _id : "aaaag",
+    name: "Male Cream tee-shirt with Toilet face",
+    description: "A lightweight cream tee shirt for men with a toilet face design",
+    price: 35,
+    image: [creamTeeDesign6, TeeDesign6],
+    category: "Mens",
+    subCategory: "Shirts",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716634345449, //change
+    bestseller: true,
+},
+{
+    _id : "aaaah",
+    name: "Male Cream tee-shirt with Dragon head",
+    description: "A lightweight cream tee shirt for men with a dragon face design",
+    price: 35,
+    image: [creamTeeDesign7, TeeDesign7],
+    category: "Men",
+    subCategory: "Shirts",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716634345449, //change
+    bestseller: true,
+},
+{
+    _id : "aaaai",
+    name: "Male Cream tee-shirt with Frog design",
+    description: "A lightweight cream tee shirt for men with a frog design",
+    price: 35,
+    image: [creamTeeDesign8, TeeDesign8],
+    category: "Men",
+    subCategory: "Shirts",
+    sizes: ["S", "M", "L", "XL"],
+    date: 1716634345449, //change
+    bestseller: true,
+},
+{
     _id : "aaaae",
     name: "Male Cream tee-shirt",
     description: "A lightweight cream tee shirt for men",
@@ -191,55 +260,7 @@ export const products = [
     subCategory: "Shirts",
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345449, //change
-    bestseller: true,
-},
-{
-    _id : "aaaaf",
-    name: "Male Cream tee-shirt",
-    description: "A lightweight blue hoodie for females",
-    price: 35,
-    image: [creamTee, creamTee],
-    category: "Men",
-    subCategory: "Shirts",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716634345449, //change
-    bestseller: true,
-},
-{
-    _id : "aaaag",
-    name: "Male Cream tee-shirt",
-    description: "A lightweight green hoodie for kids",
-    price: 35,
-    image: [creamTee, creamTee],
-    category: "Mens",
-    subCategory: "Shirts",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716634345449, //change
-    bestseller: true,
-},
-{
-    _id : "aaaah",
-    name: "Male Cream tee-shirt",
-    description: "A thick black hoodie for men",
-    price: 35,
-    image: [creamTee, creamTee],
-    category: "Men",
-    subCategory: "Shirts",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716634345449, //change
-    bestseller: true,
-},
-{
-    _id : "aaaai",
-    name: "Male Cream tee-shirtt",
-    description: "A black shirt for men",
-    price: 35,
-    image: [creamTee, creamTee],
-    category: "Men",
-    subCategory: "Shirts",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716634345449, //change
-    bestseller: true,
+    bestseller: false,
 },
 {
     _id : "aaaaj",
