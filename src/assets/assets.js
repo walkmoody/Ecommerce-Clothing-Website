@@ -15,7 +15,7 @@ import stripeLogo from './stripeLogo.png'
 import razorpayLogo from './razorpayLogo.png'
 import applepayLogo from './applepayLogo.png'
 import aboutIcon from './aboutIcon.png'
-import contactImg from './contactImg.jpg'
+import contactImg from './contactImg.png'
 import clothesFrontIcon from './clothesFrontIcon.jpg'
 import landingPageIcon from './landingPageIcon.png'
 
