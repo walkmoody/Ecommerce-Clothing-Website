@@ -19,22 +19,22 @@ const Orders = () => {
               <div className='flex items-start gap-6 text-sm'>
                 <img className='w-16 sm:w-20' src={item.image[0]} alt = ''/>
                 <div>
-                  <p className='onest-thick sm:text-base font-medium'>{item.name}</p>
-                  <div className='flex items-center gap-3 mt-2 text-base text-gray-700'>
+                  <p className='onest-thick sm:text-base font-medium text-gray-100'>{item.name}</p>
+                  <div className='flex items-center gap-3 mt-2 text-base text-gray-100'>
                     <p className ='onest-norm text-lg'>{currency}{item.price}</p>
                     <p className ='onest-norm'>Quantity: 1</p>
                     <p className ='onest-norm'>Size: M</p>
                   </div>
-                  <p className='onest-norm mt-2'> Date: <spam className ='onest-thin text-gray-400'>1, April, 2025</spam></p>
+                  <p className='onest-norm mt-2 text-gray-100'> Date: <spam className ='onest-thin text-gray-300'>1, April, 2025</spam></p>
                 </div>
                 
               </div>
               <div className='md:w-1/2 flex justify-between'>
                 <div className='flex items-center gap-2'>
                   <p className='min-w-2 h-2 rounded-full bg-green-500'></p>
-                  <p className='onest-norm text-sm md:text-base'>Ready to ship</p>
+                  <p className='onest-norm text-sm md:text-base text-gray-400'>Ready to ship</p>
                 </div>
-                <button className='onest-norm border px-4 py-2 text-sm font-medium rounded-sm'>Track Order</button>
+                <button className='onest-thick border bg-white text-black px-4 py-2 text-sm font-medium rounded-sm'>TRACK ORDER</button>
               </div>
             </div>
           ))

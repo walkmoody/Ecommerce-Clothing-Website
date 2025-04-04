@@ -46,7 +46,7 @@ const Product = () => {
         </div>
         {/* Product info */}
         <div className ='flex-1'>
-          <h1 className ='onest-norm font-medium text-2xl mt-2'>{productData.name}</h1>
+          <h1 className ='onest-norm font-medium text-2xl mt-2 text-white'>{productData.name}</h1>
           <div className ='flex items-center gap-1 mt-2'>
             <img src={assets.starIcon} alt ="" className ='w-3 5' />
             <img src={assets.starIcon} alt ="" className ='w-3 5' />
@@ -55,19 +55,19 @@ const Product = () => {
             <img src={assets.starDullIcon} alt ="" className ='w-3 5' />
             <p className ='onest-norm pl-2'>(122)</p>
           </div>
-          <p className = 'onest-thick mt-5 text-3xl'>{currency}{productData.price}</p>
-          <p className ='onest-norm mt-5 text-gray-500 md:w-4/5'>{productData.description}</p>
+          <p className = 'onest-thick mt-5 text-3xl text-white'>{currency}{productData.price}</p>
+          <p className ='onest-norm mt-5 text-gray-100 md:w-4/5'>{productData.description}</p>
           <div className ='flex flex-col gap-4 my-8'>
-            <p className ='onest-norm'>Select Size</p>
+            <p className ='onest-thick text-white'>Select Size</p>
             <div className ='flex gap-2'>
               {productData.sizes.map((item,index)=>(
-                <button onClick={()=>setSize(item)}className ={`onest-thick border py-2 px-4 bg-gray-100 ${item === size ? 'border-gray-400' : ''}`} key={index}>{item}</button>
+                <button onClick={()=>setSize(item)}className ={`onest-thick border py-2 px-4 text-white bg-black ${item === size ? 'border-gray-400 bg-gray-900' : ''}`} key={index}>{item}</button>
               ))}
             </div>
           </div>
-          <button onClick={()=> addToCart(productData._id, size)} className ='onest-thick bg-black text-white px-8 py-3 text-sm active:bg-gray-700'>ADD TO CART</button>
+          <button onClick={()=> addToCart(productData._id, size)} className ='onest-thick border border-gray-500 bg-white text-black px-8 py-3 text-sm active:bg-gray-700'>ADD TO CART</button>
           <hr className ='mt-8 sm:w-4/5'/>
-          <div className ='text-sm text-gray-500 mt-5 flex flex-col gap-1'>
+          <div className ='text-sm text-gray-200 mt-5 flex flex-col gap-1'>
               <p className ='onest-norm'>Original Product</p>
               <p className ='onest-norm'>Shipping fees apply </p>
               <p className ='onest-norm'>No Returns available for this product</p>
@@ -77,12 +77,12 @@ const Product = () => {
       {/*Description and review section */}
       <div className = 'mt-20'>
         <div className='flex'>
-          <b className ='onest-thick border px-5 py-3 text-sm'>Description</b>
-          <b className ='onest-norm border px-5 py-3 text-sm'>Reviews (122)</b>
+          <b className ='onest-thick border px-5 py-3 text-sm text-white'>Description</b>
+          <b className ='onest-norm border px-5 py-3 text-sm text-white'>Reviews (122)</b>
         </div>
         <div className ='flex flex-col gap-4 border px-6 py-6 text-sm text-gray-500'>
-          <p className = 'onest-norm text-gray-500'>Filler words are going here that need to be replaced later</p>
-          <p className = 'onest-norm text-gray-500'>another set of filler words are going here that again need to be replaced later</p>
+          <p className = 'onest-norm text-gray-200'>Filler words are going here that need to be replaced later</p>
+          <p className = 'onest-norm text-gray-200'>another set of filler words are going here that again need to be replaced later</p>
         </div>
       </div>
       {/*Display related prodcuts */}
