@@ -137,7 +137,7 @@ export const products = [
     price: 75,
     image: [blackHoodieDesign1, teeDesign1],
     category: "Men",
-    subCategory: "Outerwear",
+    subCategory: "Hoodies",
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345449, //change
     bestseller: false,
@@ -173,7 +173,7 @@ export const products = [
     price: 75,
     image: [blackHoodieDesign4, teeDesign4],
     category: "Men",
-    subCategory: "Outerwear",
+    subCategory: "Hoodies",
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345449, //change
     bestseller: true,
@@ -269,7 +269,7 @@ export const products = [
     price: 60,
     image: [blackHoodie, blackHoodie],
     category: "Men",
-    subCategory: "Outerwear",
+    subCategory: "Hoodies",
     sizes: ["S", "M", "L", "XL"],
     date: 1716634345448, //change
     bestseller: true,
