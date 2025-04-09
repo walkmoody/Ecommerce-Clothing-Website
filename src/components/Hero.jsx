@@ -13,7 +13,7 @@ const Hero = () => {
             <div className='text-[#414141]'>
                 <div className = 'flex items-center gap-2'>
                   <p className ='w-10 md:w-11 h-[2px] bg-gray-300'></p>
-                    <p className='onest-thin text-sm md:text-base text-gray-100'>BESTSELLERS</p>
+                    <p className='onest-thin text-sm md:text-base text-gray-100'>GREATEST PRODUCTS</p>
                     
                 </div>
                 <h1 className = 'rock-salt-regular text-3xl sm:py-3 lg:text-5xl leading-relaxed text-gray-100'>Latest Arrivals</h1>
