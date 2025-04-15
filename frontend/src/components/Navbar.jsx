@@ -5,8 +5,14 @@ import { ShopContext } from '../context/ShopContext'
 
 const Navbar = () => {
     const [visible,setVisible]  = useState(false);
-    const {setShowSearch, getCartCount} = useContext(ShopContext);
+    const {setShowSearch, getCartCount, navigate, token, setToken, setCartItems} = useContext(ShopContext);
  
+    const logout = () =>{
+        navigate('/login')
+        localStorage.removeItem('token')
+        setToken('')
+        setCartItems({})
+    }
 
   return (
     <div className={visible ? '' : 'sticky top-0 z-50'}>
@@ -43,14 +49,16 @@ const Navbar = () => {
         <div className ='flex items-center gap-6'>
             <Link to='/collection'><img onClick={()=>setShowSearch(true)} src = {assets.search} className = 'w-5 cursor-pointer' alt = ""/></Link>
             <div className = "group relative">
-                <Link to='/login'><img className ='w-5 cursor-pointer' src={assets.profileIcon} alt=""/></Link>
+                <img onClick={()=> token ? null : navigate('/login')} className ='w-5 cursor-pointer' src={assets.profileIcon} alt=""/>
+                {/*Dropdown men*/}
+                {token && 
                 <div className="group-hover:block dropdown-menu hidden absolute left-1/2 transform -translate-x-1/2 pt-4 z-50">
                     <div className = 'flex flex-col gap-2 w-36 py-3 px-5 bg-black text-gray-400 border border-gray-100 rounded shadow-lg'>
-                        <Link><p className = 'onest-norm cursor-pointer hover:text-white'>My Profile</p></Link>
-                        <Link to ='/orders'><p className = 'onest-norm cursor-pointer hover:text-white'>Orders</p></Link>
-                        <p className = 'onest-norm cursor-pointer hover:text-white'>Logout</p>
+                        <p className = 'onest-norm cursor-pointer hover:text-white'>My Profile</p>
+                        <p onClick = {()=>navigate('/orders')}className = 'onest-norm cursor-pointer hover:text-white'>Orders</p>
+                        <p onClick={logout} className = 'onest-norm cursor-pointer hover:text-white'>Logout</p>
                     </div>
-                </div>
+                </div>}
             </div>
             <Link to='/cart' className='relative'>
                 <img src={assets.cartIcon} className='w-5 min-w-5' alt=""/>
