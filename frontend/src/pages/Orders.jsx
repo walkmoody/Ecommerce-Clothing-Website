@@ -25,7 +25,7 @@ const Orders = () => {
                     <p className ='onest-norm'>Quantity: 1</p>
                     <p className ='onest-norm'>Size: M</p>
                   </div>
-                  <p className='onest-norm mt-2 text-gray-100'> Date: <spam className ='onest-thin text-gray-300'>1, April, 2025</spam></p>
+                  <p className='onest-norm mt-2 text-gray-100'> Date: <span className ='onest-thin text-gray-300'>1, April, 2025</span></p>
                 </div>
                 
               </div>
