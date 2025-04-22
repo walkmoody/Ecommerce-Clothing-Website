@@ -30,7 +30,7 @@ const placeOrder = async (req,res) => {
 }
 // Placing orders using stripe method
 const placeOrderStripe = async(req,res) =>{
-
+   
 }
 
 // Placing orders using razorpay method
@@ -42,12 +42,31 @@ const placeOrderRazorpay = async(req,res) =>{
 
 // all order dates for Admin panel
 const allOrders = async(req, res) =>{
+    console.log("allOrder")
+    try{
+        const orders = await orderModel.find({})
+        res.json({success:true, orders})
+    }catch(error){
+        console.log(error)
+        res.json({success:false, message:error.message})
+    }
 
 }
 
 // user roder data for front end
 const userOrders = async(req, res) =>{
+    try{
 
+        const {userId} = req.body
+
+        const orders = await orderModel.find({userId})
+        res.json({success:true, orders})
+        
+
+    } catch(error){
+        console.log(error)
+        res.json({success:false, message:error.message})
+    }
 }
 
 // update order status from admin panel
