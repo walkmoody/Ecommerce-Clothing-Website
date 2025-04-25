@@ -1,3 +1,4 @@
 backend/.env
 admin/.env
 frontend/.env
+node_modules
