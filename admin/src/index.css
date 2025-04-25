@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&family=Rock+Salt&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Onest;
+}
+select,input,textarea{
+  border: 1px solid #c2c2c2;
+  outline-color: #C586A5;
+  border-radius: 4px;
+}
+
+.active{
+  background-color: #ffebf5;
+  border-color: #C586A5;
+}
+
+.rock-salt-regular {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.onest-norm {
+  font-family: "Onest", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

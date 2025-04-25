@@ -182,7 +182,7 @@ export const products = [
     _id : "aaaad",
     name: "Male black tee-shirt Face design",
     description: "A lightweight orange hoodie for men",
-    price: 50,
+    price: 35,
     image: [blackTeeDesign3, teeDesign3],
     category: "Men",
     subCategory: "Shirts",
