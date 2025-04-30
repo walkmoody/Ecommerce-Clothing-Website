@@ -76,7 +76,6 @@ const placeOrderStripe = async(req,res) =>{
             },
             quantity: 1
         })
-        console.log(origin)
         const session = await stripe.checkout.sessions.create({
             success_url: `${origin}/verify?success=true&orderId=${newOrder._id}`,
             cancel_url: `${origin}/verify?success=false&orderId=${newOrder._id}`,
