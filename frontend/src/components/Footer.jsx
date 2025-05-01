@@ -39,6 +39,9 @@ const Footer = () => {
             <hr />
             <p className = 'onest-thin py-5 text-sm text-center text-gray-300'>Copyright 2025 @ (CHANGE THIS) - All Right Reserved.</p>
         </div>
+        <div>
+            <p className = 'onest-thin py-5 text-sm text-center text-gray-300'>Ecommerce Project :: Walker Moody</p>
+        </div>
 
     </div>
   )

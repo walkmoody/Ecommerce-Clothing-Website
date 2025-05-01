@@ -7,7 +7,7 @@ const currency = 'usd'
 const deliveryCharge = 10 
 
 //gateway initialize
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
+//const stripe = new Stripe(process.env.STRIPE_SECRET_KEY) Commented out for purposes of class
 
 const placeOrder = async (req,res) => {
     try {
