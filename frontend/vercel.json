@@ -1,8 +1,8 @@
 {
     "rewrites": [
       {
-        "source": "/admin/:match*",
-        "destination": "https://ecommerce-admin-lemon-eta.vercel.app/:match*"
+        "source": "/(.*)",
+        "destination": "/"
       }
     ]
   }
