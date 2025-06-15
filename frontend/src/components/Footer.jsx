@@ -10,26 +10,38 @@ const Footer = () => {
             
             <div>
                 <img src={assets.logo} className='mb-5 w-32' alt =""/>
-                <p className ='onest-norm w-full md:w-2/3 text-gray-100'>
-                Work in progress
-                </p>
+                <img src={assets.wmlogo} className='mb-5 w-24 animate-sine' alt =""/>
+                
             </div>
 
             <div>
-                <p className ='onest-norm text-xl font-medium mb-5 text-white'>COMPANY</p>
+                <p className ='onest-norm text-center text-xl font-bold mb-5 text-white'>LINKS</p>
                 <ul className ='flex flex-col gap-1 text-white'>
-                    <Link to='/'><li className='onest-norm'>Home</li></Link>
-                    <Link to='/about'><li className='onest-norm'>About Us</li></Link>
-                    <li className='onest-norm'>Delivery</li>
-                    <li className='onest-norm'>Privacy Policy</li>
+                    <a href='https://github.com/walkmoody' target = "_blank" rel="noopener noreferrer">
+                        <li className='onest-norm border-2 rounded text-center cursor-pointer bg-gray-900 font-bold hover:bg-gray-600'>Github</li>
+                    </a>
+
+                    <a href='https://www.linkedin.com/in/walkermoody/' target = "_blank" rel="noopener noreferrer">
+                        <li className='onest-norm border-2 rounded text-center cursor-pointer bg-gray-900 font-bold hover:bg-gray-600'>Linkedin</li>
+                    </a>
+
+                    <a href='https://www.instagram.com/walkercmoody/' target = "_blank" rel="noopener noreferrer">
+                        <li className='onest-norm border-2 rounded text-center cursor-pointer bg-gray-900 font-bold hover:bg-gray-600'>Instagram</li>
+                    </a>
+
+                    <a href='https://www.wamoody.com/' target = "_blank" rel="noopener noreferrer">
+                        <li className='onest-norm border-2 rounded text-center cursor-pointer bg-gray-900 font-bold hover:bg-gray-600'>wamoody.com</li>
+                    </a>
+                    
                 </ul>
             </div>
 
             <div>
-                <p className ='onest-norm text-xl font-medium mb-5 text-white'>GET IN TOUCH</p>
-                <ul className ='flex flex-col gap-1 text-white'>
-                    <li className='onest-norm'>REPLACE WITH PHONE NUMBER</li>
-                    <li className='onest-norm'>REPLACE WITH EMAIL</li>
+                <p className ='onest-norm text-xl font-bold mb-5 text-white text-center'>GET IN TOUCH</p>
+                <ul className ='border-2 rounded text-center flex flex-col gap-1 text-white bg-gray-900 font-bold px-2 py-5'>
+                    <li className='onest-norm'>(512)-277-0615</li>
+                    <li className='onest-norm'>moodywalkertx@gmail.com</li>
+                    <li className='onest-norm'>wamoody@ttu.edu</li>
                 </ul>
             </div>
 
@@ -37,7 +49,7 @@ const Footer = () => {
 
         <div>
             <hr />
-            <p className = 'onest-thin py-5 text-sm text-center text-gray-300'>Copyright 2025 @ (CHANGE THIS) - All Right Reserved.</p>
+            <p className = 'onest-thin py-5 text-sm text-center text-gray-300'>Copyright 2025 @ Walker Moody - All Right Reserved.</p>
         </div>
 
     </div>

@@ -18,6 +18,7 @@ import aboutIcon from './aboutIcon.png'
 import contactImg from './contactImg.png'
 import clothesFrontIcon from './clothesFrontIcon.jpg'
 import landingPageIcon from './landingPageIcon.png'
+import wmlogo from './wmlogo.png'
 
 import creamTee from './creamTeeShirt.png'
 import blackTee from './blackTee.png'
@@ -74,6 +75,7 @@ export const assets = {
     contactImg,
     clothesFrontIcon,
     landingPageIcon,
+    wmlogo,
 
     creamTee,
     blackTee,

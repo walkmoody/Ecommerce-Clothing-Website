@@ -12,9 +12,9 @@ const Contact = () => {
       </div>
       <div className='my-10 flex flex-col justify-center md:flex-row gap-10 mb-28'>
         <img className='w-full md:max-w-[480px] rounded-lg' src={assets.contactImg} alt=''/>
-        <div className='flex flex-col justify-center items-start gap-6'>
+        <div className='border-2 flex flex-col justify-center items-start gap-6 bg-gray-900 rounded py-2 px-2'>
           <p className='onest-thick text-xl text-gray-100'>Contact Us Here:</p>
-          <p className='onest-norm text-xl text-gray-100'>Phone: PHONENUMBER <br/> Email: fakeEmail@email.com</p>
+          <p className='onest-norm text-xl text-gray-100'>Phone: 512-277-0615 <br/> Email: moodywalkertx@gmail.com</p>
         </div>
 
       </div>
